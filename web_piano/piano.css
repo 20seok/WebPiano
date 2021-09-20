@@ -1,0 +1,47 @@
+body{
+    background-color: black;    
+    margin: 0;
+}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 350px;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.piano{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 10% 30% 0 30%;
+}
+.pKey{
+    position: relative;
+    width: 40px;
+    height: 180px;
+    background-color: white;
+    border: 3px solid gray;
+    line-height: 90px;
+    text-align: center;
+}
+.black{
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+span{
+    color: black;
+    text-align: center;
+    font-weight: 900;
+}
+.pressed{
+    box-shadow: 0 3px 4px 0 lightgray;
+    opacity: 0.5;
+}
